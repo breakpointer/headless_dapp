@@ -1,0 +1,27 @@
+{
+  "name": "api_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Brian Chamberlain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-winston": "^4.0.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.9.0",
+    "superagent": "^5.1.2",
+    "supertest": "^4.0.2"
+  }
+}
